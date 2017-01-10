@@ -5,7 +5,7 @@ DKMS is envisioned as a knowledge management system built with Drupal primarily 
 
 #Dashboard
 
-!DKMS-Dashboard.png
+!(/DKMS-Dashboard.png)
 
 The "Dashboard" operates as the primary landing page for signed in users.
 
