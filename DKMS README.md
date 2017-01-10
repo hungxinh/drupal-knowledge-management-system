@@ -5,6 +5,8 @@ DKMS is envisioned as a knowledge management system built with Drupal primarily 
 
 #Dashboard
 
+!DKMS-Dashboard.png
+
 The "Dashboard" operates as the primary landing page for signed in users.
 
 The top of the Dashboard includes a link to the user's account page, a link to the upload file form, a search box, and a mega menu that includes common filters (legal issue, document type, advocate author). These filters will operate using a Select2, allowing users to type or select their filter of choice (e.g. "eviction"). The search box returns results based on tags provided by users at the time the document was uploaded, as well as on the text of the document itself when possible.
