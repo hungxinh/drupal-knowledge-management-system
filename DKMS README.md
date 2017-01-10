@@ -37,7 +37,7 @@ Below, on the left, a larger version of the thumbnail preview appears, below whi
 Below this data is a field for users to add comments on the file, as well as flag the file as helpful/not helpful. The former allows advocates to discuss the usefulness of the document and provide feedback, while the latter can be used for later analysis--in particular, identifying which documents are most helpful practice-wide.
 
 
-#My Account Dashboard
+<p align = center><img src=/DKMS-UserDash.png></p>
 
 Following the link from the Dashboard will lead users to their account page. The account page is tabbed with Recently Accessed, History, Favorites, and Account Management.
 
