@@ -46,3 +46,5 @@ The Recently Accessed tab is linked to a Search Results page displaying document
 The History tab is linked to a Search Results page filtered to display documents uploaded by the current user, sorted by most recently uploaded.
 
 The Favorites tab will allow users to select filters to apply to their Dashboard display (Popular and Newest Docs). It will also allow them to designate favorite cases, which will appear on the Dashboard as well.
+
+The Account Management tab contains fields for the user to change their email, password, or other profile details.
