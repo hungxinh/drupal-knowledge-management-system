@@ -1,0 +1,56 @@
+/**
+ * Place your custom styles here.
+ */
+ 
+.navbar-header {
+   margin-right: 30px;
+}
+ 
+.view-topic-area-flags {
+    position: absolute;
+    right: 20px;
+    top: 2px;
+}
+
+.views-exposed-form {
+  float: right;
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 0;
+}
+
+.form-item-field-folder-case-und-form-description-value,
+#edit-field-folder-case-und-form-description-format,
+.form-item-field-document-author-und-form-description-value,
+#edit-field-document-author-und-form-description-format,
+.form-item-field-interest-area-und-form-description-value,
+#edit-field-interest-area-und-form-description-format,
+.form-item-field-document-type-und-form-description-value,
+#edit-field-document-type-und-form-description-format {
+  display: none;
+}
+
+.field-name-field-date-created,
+.form-item-files-replace-upload {
+  padding-top: 30px;
+}
+
+.views-exposed-form {
+    float: none;
+    width: 340px;
+    margin: 0 auto;
+}
+
+#block-views-favorite-cases-block,
+#block-views-home-block-1,
+#block-views-new-materials-block,
+#block-views-all-star-advocates-block {
+  float: left;
+  margin-right: 68px;
+  }
+  
+#block-views-all-star-advocates-block {
+  float: left;
+  margin-right: 0;
+  

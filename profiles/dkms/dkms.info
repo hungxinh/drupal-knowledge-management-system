@@ -1,0 +1,101 @@
+; Packaging information for dkms
+name = "DKMS"
+description = ""
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = actions_permissions
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+; CCK
+dependencies[] = cck
+; Chaos tool suite
+dependencies[] = bulk_export
+dependencies[] = ctools
+dependencies[] = ctools_ajax_sample
+; Context
+dependencies[] = context
+dependencies[] = context_ui
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = options
+dependencies[] = path
+dependencies[] = php
+dependencies[] = statistics
+dependencies[] = syslog
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = trigger
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+; Development
+dependencies[] = devel
+dependencies[] = devel_generate
+dependencies[] = profiler_builder
+dependencies[] = profiler_builder_extras
+; Display Suite
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_forms
+dependencies[] = ds_ui
+; Fields
+dependencies[] = entityreference
+dependencies[] = field_group
+dependencies[] = filefield_paths
+dependencies[] = inline_entity_form
+; Flags
+dependencies[] = flag
+; Media
+dependencies[] = file_admin
+dependencies[] = file_entity
+; Other
+dependencies[] = backup_migrate
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = pathauto
+dependencies[] = token
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+; Search
+dependencies[] = search_api
+dependencies[] = search_api_attachments
+dependencies[] = search_api_facetapi
+dependencies[] = search_api_solr
+dependencies[] = search_api_views
+; Search Toolkit
+dependencies[] = facetapi
+; User interface
+dependencies[] = jquery_update
+; Views
+dependencies[] = eva
+dependencies[] = views
+dependencies[] = views_accordion
+dependencies[] = views_bulk_operations
+dependencies[] = views_field_view
+dependencies[] = views_php
+dependencies[] = views_ui
+; Features
+dependencies[] = features
+
