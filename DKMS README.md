@@ -1,4 +1,6 @@
-DKMS is envisioned as a knowledge management system built with Drupal primarily for sharing/storing/searching case-related documents. Core functionality includes the ability to upload tagged and categorized documents using a single form; an intuitive search and filter system that allows advocates to quickly and easily locate the documents they need; mechanisms to identify the newest, most popular, or most helpful documents; and permissions controls so that limited access can be granted as necessary to outside individuals or organizations.
+#Overview
+
+DKMS is envisioned as a knowledge management system built with Drupal primarily for sharing/storing/searching case-related documents. Core functionality includes the ability to upload tagged and categorized documents using a single form; an intuitive search and filter system that allows advocates to quickly and easily locate the documents they need; mechanisms to identify the newest, most popular, or most helpful documents; and permissions controls so that limited access can be granted as necessary to outside individuals or organizations. It is designed to be responsive and mobile-friendly.
 
 
 #Dashboard
@@ -7,8 +9,26 @@ The "Dashboard" operates as the primary landing page for signed in users.
 
 The top of the Dashboard includes a link to the user's account page, a link to the upload file form, a search box, and a mega menu that includes common filters (legal issue, document type, advocate author). These filters will operate using a Select2, allowing users to type or select their filter of choice (e.g. "eviction"). The search box returns results based on tags provided by users at the time the document was uploaded, as well as on the text of the document itself when possible.
 
-Below this toolbar, the Dashboard will feature blocks highlighting (1) popular documents (e.g. 5-10 documents weighted by most unique user accesses then most overall accesses in the past 60 days); (2) recently uploaded documents; and (3) documents recently accessed by the current user.
+Below this toolbar, the Dashboard will feature blocks highlighting (1) popular documents (e.g. 5-10 documents weighted by most unique user accesses then most overall accesses in the past 60 days); (2) recently uploaded documents; and (3) documents recently accessed by the current user. Blocks 1 and 2 will be filtered to match a user's "Favorites" (see below).
 
 
 #Search Results
 
+The top of the Search Results page contains a search bar, populated by the search term used if a user arrived at this page by using the search bar function on the Dashboard. The search bar will search within filtered results if any filters have been applied (i.e. entering a new search term will not reset the filters a user has applied).
+
+Below the search bar are filter options which appear as links, selecting which opens a Select2 allowing users to select from commonly used filters or begin typing. These options include, for instance, Case, Legal Issue, and Advocate Author. There will also be a date range selector. All applied filters (including search terms) will appear in the appropriate place (i.e. inside the search bar or under their respective filter option link) and will feature an "x" for simple one-click removal.
+
+The results themselves will be displayed below the filter options. Each result will feature a thumbnail preview of the document generated automatically at the time it was uploaded and a small icon indicating what filetype the document is. Aside the thumbnail, details about the file will be listed (e.g. title, date filed, etc.). Together they form a single clickable field that will take a user to that file's page. A smaller button will allow a user to directly download the document from the Search Results page.
+
+Interactive arrow icons will appear next to attributes by which the results can be sorted (e.g. date filed).
+
+
+#User Account Page
+
+Following the link from the Dashboard will lead users to their account page. The account page is tabbed with Recently Accessed, History, Favorites, and Account Management.
+
+The Recently Accessed tab is linked to a Search Results page displaying documents the current user has viewed, sorted by most recent date of access.
+
+The History tab is linked to a Search Results page filtered to display documents uploaded by the current user, sorted by most recently uploaded.
+
+The Favorites 
