@@ -37,7 +37,7 @@ Below, on the left, a larger version of the thumbnail preview appears, below whi
 Below this data is a field for users to add comments on the file, as well as flag the file as helpful/not helpful. The former allows advocates to discuss the usefulness of the document and provide feedback, while the latter can be used for later analysis--in particular, identifying which documents are most helpful practice-wide.
 
 
-#My Account Dashboard
+<p align = center><img src=/DKMS-UserDash.png></p>
 
 Following the link from the Dashboard will lead users to their account page. The account page is tabbed with Recently Accessed, History, Favorites, and Account Management.
 
@@ -46,3 +46,5 @@ The Recently Accessed tab is linked to a Search Results page displaying document
 The History tab is linked to a Search Results page filtered to display documents uploaded by the current user, sorted by most recently uploaded.
 
 The Favorites tab will allow users to select filters to apply to their Dashboard display (Popular and Newest Docs). It will also allow them to designate favorite cases, which will appear on the Dashboard as well.
+
+The Account Management tab contains fields for the user to change their email, password, or other profile details.
