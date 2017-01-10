@@ -28,6 +28,15 @@ The results themselves will be displayed below the filter options. Each result w
 Interactive arrow icons will appear next to attributes by which the results can be sorted (e.g. date filed).
 
 
+![File Profile](/DKMS-File.png)
+
+When a user selects a file from the Search Results page, they will arrive at a profile page for that file. At the top of the page is the File Title, followed by small icons for New or Popular files.
+
+Below, on the left, a larger version of the thumbnail preview appears, below which are clickable file tags (e.g. "Appellate Brief"). On the right are various file properties: Date Filed, Case Title, Advocate, Legal Issue. The Case Title field also includes a count of how many files are associated with that case, and case tags (e.g. water rights).
+
+Below this data is a field for users to add comments on the file, as well as flag the file as helpful/not helpful. The former allows advocates to discuss the usefulness of the document and provide feedback, while the latter can be used for later analysis--in particular, identifying which documents are most helpful practice-wide.
+
+
 #My Account Dashboard
 
 Following the link from the Dashboard will lead users to their account page. The account page is tabbed with Recently Accessed, History, Favorites, and Account Management.
