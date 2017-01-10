@@ -9,7 +9,7 @@ The "Dashboard" operates as the primary landing page for signed in users.
 
 The top of the Dashboard includes a link to the user's account page, a link to the upload file form, a search box, and a mega menu that includes common filters (legal issue, document type, advocate author). These filters will operate using a Select2, allowing users to type or select their filter of choice (e.g. "eviction"). The search box returns results based on tags provided by users at the time the document was uploaded, as well as on the text of the document itself when possible.
 
-Below this toolbar, the Dashboard will feature blocks highlighting (1) popular documents (e.g. 5-10 documents weighted by most unique user accesses then most overall accesses in the past 60 days); (2) recently uploaded documents; and (3) documents recently accessed by the current user. Blocks 1 and 2 will be filtered to match a user's "Favorites" (see below).
+Below this toolbar, the Dashboard will feature blocks highlighting (1) the current user's favorite cases, clicking which takes them to a Search Results page for that case; (2) documents recently accessed by the current user; (3) popular documents (e.g. 5-10 documents weighted by most unique user accesses then most overall accesses in the past 60 days); and (4) recently uploaded documents. Blocks 3 and 4 will be filtered to match a user's "Favorites" (see below).
 
 
 #Search Results
@@ -23,7 +23,7 @@ The results themselves will be displayed below the filter options. Each result w
 Interactive arrow icons will appear next to attributes by which the results can be sorted (e.g. date filed).
 
 
-#User Account Page
+#My Account Dashboard
 
 Following the link from the Dashboard will lead users to their account page. The account page is tabbed with Recently Accessed, History, Favorites, and Account Management.
 
@@ -31,4 +31,4 @@ The Recently Accessed tab is linked to a Search Results page displaying document
 
 The History tab is linked to a Search Results page filtered to display documents uploaded by the current user, sorted by most recently uploaded.
 
-The Favorites 
+The Favorites tab will allow users to select filters to apply to their Dashboard display (Popular and Newest Docs). It will also allow them to designate favorite cases, which will appear on the Dashboard as well.
