@@ -30,7 +30,7 @@ Interactive arrow icons will appear next to attributes by which the results can 
 
 ![File Profile](/DKMS-File.png)
 
-When a user selects a file from the Search Results page, they will arrive at a profile page for that file. At the top of the page is the File Title, followed by small icons for New or Popular files.
+When a user selects a file from the Search Results page, they will arrive at a profile page for that file. At the top of the page is the File Title, followed by small icons for New or Popular files, and the option to mark the file as a Favorite.
 
 Below, on the left, a larger version of the thumbnail preview appears, below which are clickable file tags (e.g. "Appellate Brief"). On the right are various file properties: Date Filed, Case Title, Advocate, Legal Issue. The Case Title field also includes a count of how many files are associated with that case, and case tags (e.g. water rights).
 
