@@ -28,7 +28,7 @@ The results themselves will be displayed below the filter options. Each result w
 Interactive arrow icons will appear next to attributes by which the results can be sorted (e.g. date filed).
 
 
-<center>![File Profile](/DKMS-File.png)</center>
+<center>![File Profile](/DKMS-FileProfile.png)</center>
 
 When a user selects a file from the Search Results page, they will arrive at a profile page for that file. At the top of the page is the File Title, followed by small icons for New or Popular files, and the option to mark the file as a Favorite.
 
