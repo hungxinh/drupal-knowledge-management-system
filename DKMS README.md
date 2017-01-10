@@ -3,8 +3,6 @@
 DKMS is envisioned as a knowledge management system built with Drupal primarily for sharing/storing/searching case-related documents. Core functionality includes the ability to upload tagged and categorized documents using a single form; an intuitive search and filter system that allows advocates to quickly and easily locate the documents they need; mechanisms to identify the newest, most popular, or most helpful documents; and permissions controls so that limited access can be granted as necessary to outside individuals or organizations. It is designed to be responsive and mobile-friendly.
 
 
-#Dashboard
-
 ![Dashboard](/DKMS-Dashboard.png)
 
 The "Dashboard" operates as the primary landing page for signed in users.
@@ -14,7 +12,7 @@ The top of the Dashboard includes a link to the user's account page, a link to t
 Below this toolbar, the Dashboard will feature blocks highlighting (1) the current user's favorite cases, clicking which takes them to a Search Results page for that case; (2) documents recently accessed by the current user; (3) popular documents (e.g. 5-10 documents weighted by most unique user accesses then most overall accesses in the past 60 days); and (4) recently uploaded documents. Blocks 3 and 4 will be filtered to match a user's "Favorites" (see below).
 
 
-#Search Results
+![Search Results](/DKMS-Search.png)
 
 The top of the Search Results page contains a search bar, populated by the search term used if a user arrived at this page by using the search bar function on the Dashboard. The search bar will search within filtered results if any filters have been applied (i.e. entering a new search term will not reset the filters a user has applied).
 
